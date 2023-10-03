@@ -41,7 +41,7 @@ export default function SingleProduct() {
             </div>
             <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5'>
                 <div className='bg-white rounded-2xl shadow-sm flex items-center justify-center'>
-                    <img src={`./../../../public/photo/${singleProduct.image}`} alt="" className='w-full rounded-2xl' />
+                    <img src={`https://miladshop.iran.liara.run/photo/${singleProduct.image}`} alt="" className='w-full rounded-2xl' />
                 </div>
                 <div className='bg-white rounded-2xl box-content  shadow-sm p-5'>
                     <h2 className='font-MorabbaBold text-xl  lg:text-3xl text-zinc-700 lg:w-[400px]'>{singleProduct.title}</h2>

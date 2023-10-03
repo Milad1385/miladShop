@@ -118,7 +118,7 @@ export default function Nav() {
                     {/* mobile menu */}
                 </div>
                 <div className='w-16'>
-                    <img src="./../../../public/photo/logo.webp" alt="" />
+                    <img src="https://miladshop.iran.liara.run/photo/logo.webp" alt="" />
                 </div>
                 <div>
                     <svg className='w-6 h-6'>
