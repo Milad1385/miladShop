@@ -12,16 +12,16 @@ export default function SingleProduct() {
     
     useEffect(() =>{
         window.scrollTo(0, 0);
-        fetch(`http://localhost:8000/products/${productID.id}`)
+        fetch(`https://json.iran.liara.run/products/${productID.id}`)
             .then(res => res.json())
             .then(data => {
                 setSingleProduct(data);
                 document.title = data.title
             })
-        fetch(`http://localhost:8000/more?productID=${productID.id}`)
+        fetch(`https://json.iran.liara.run/more?productID=${productID.id}`)
             .then(res => res.json())
             .then(data => setProductInfo(data));
-        fetch(`http://localhost:8000/color?productID=${productID.id}`)
+        fetch(`https://json.iran.liara.run/color?productID=${productID.id}`)
             .then(res => res.json())
             .then(data => setColor(data));
 

@@ -10,7 +10,7 @@ export default function Home() {
 
   useEffect(() =>{
     window.scrollTo(0, 0);
-    fetch(`http://localhost:8000/products`)
+    fetch(`https://json.iran.liara.run/products`)
       .then(res => res.json())
       .then(data =>{
         console.log(data);
