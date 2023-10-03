@@ -17,6 +17,7 @@ export default function SingleProduct() {
             .then(data => {
                 setSingleProduct(data);
                 document.title = data.title
+                console.log(data);
             })
         fetch(`https://json.iran.liara.run/more?productID=${productID.id}`)
             .then(res => res.json())
