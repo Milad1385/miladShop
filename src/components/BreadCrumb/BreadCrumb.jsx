@@ -9,15 +9,24 @@ export default function BreadCrumb(props) {
                   <use href='#home'></use>
                 </svg>
           </div>
-          <span className='block w-1.5 h-14 bg-gray-100' ></span>
+          <span className='hidden md:block w-1.5 h-14 bg-gray-100' ></span>
+          <svg className='w-5 h-5 block md:hidden'>
+            <use href='#chevron-left'></use>
+          </svg>
           <div className='breadCrumb__item font-DanaDemiBold '>
             <a href="#">محصولات</a>
           </div>
-          <span className='w-1.5 h-14 bg-gray-100 '></span>
+          <span className='hidden md:block w-1.5 h-14 bg-gray-100' ></span>
+          <svg className='w-5 h-5 block md:hidden'>
+            <use href='#chevron-left'></use>
+          </svg>
           <div className='breadCrumb__item font-DanaDemiBold'>
             <a href="#">{props.categoryName}</a>
           </div>
-          <span className='w-1.5 h-14 bg-gray-100 '></span>
+          <span className='hidden md:block w-1.5 h-14 bg-gray-100' ></span>
+          <svg className='w-5 h-5 block md:hidden'>
+            <use href='#chevron-left'></use>
+          </svg>
           <div className='breadCrumb__item font-DanaMedium '>
             <a href="#">{props.name}</a>
           </div>
