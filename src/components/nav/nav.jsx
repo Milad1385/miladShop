@@ -130,7 +130,7 @@ export default function Nav() {
                 {/* menu haeder */}
                 <div className='flex items-center justify-between border-b border-gray-300 pb-5'>
                     <div className='w-[62px]'>
-                        <img src="photo/logo.webp" alt="" />
+                        <img src="https://miladshop.iran.liara.run/photo/logo.webp" alt="" />
                     </div>
                     <h5 className='font-MorabbaBold text-2xl'>میلاد شاپ</h5>
                     <div>
