@@ -53,7 +53,7 @@ export default function Nav() {
                         </NavLink>
                         <div className='absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible block child:block text-base child:tracking-normal w-52 bg-white shadow-md rounded-lg space-y-4 p-6 border-t-[3px] border-orange-300 transition-all delay-75'>
                                 <NavLink to='/product/public'>عمومی</NavLink>
-                                <NavLink to='/product/digital'>دیجیتال</NavLink>
+                                <NavLink to='/product/digital'>کالای دیجیتال</NavLink>
                                 <NavLink to='/product/laptop'>لپ تاپ</NavLink>
                                 <NavLink to='/prodoct/mobile'>موبایل</NavLink>
                                 <NavLink to='/product/clothes'>پوشاک</NavLink>
